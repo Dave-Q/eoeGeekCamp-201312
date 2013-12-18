@@ -1,9 +1,16 @@
-package com.eoe.day02;
+package com.eoe.exercise;
 
 public class Exercise03 {
 
-	public static void main(String[] args){
-		System.out.print("(1111111111111111)2=");
-		System.out.println(Math.pow(2,16)-1);
+	/**
+	 * 不用第三个变量，实现两个字符类型变量值互换。
+	 */
+	public static void main(String[] args) {
+	    char a=66;
+		int  i='B';
+		System.out.println("a="+a);
+		System.out.println("i="+i);
+
 	}
+
 }

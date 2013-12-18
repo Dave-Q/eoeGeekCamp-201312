@@ -1,9 +1,21 @@
-package com.eoe.day02;
+package com.eoe.exercise;
+
+import java.util.Scanner;
+
+import javax.swing.text.html.MinimalHTMLWriter;
 
 public class Exercise06 {
 
-	public static void main(String[] args){
-		System.out.println("3712秒是几小时、几分、几秒:");
-		System.out.println((3712/(60*60))+"小时"+(3712/60)%60+"分"+(3712%60)+"秒");
+	/**
+	 * 閿洏杈撳叆涓�涓暟锛岃鏁拌姹傚湪0~5涔嬮棿锛屽綋瓒呰繃5鏃惰缃负5锛屽綋灏忎簬0鏃惰缃负0.	
+	 */
+	public static void main(String[] args) {
+		Scanner scanner=new Scanner(System.in);
+		System.out.println("璇疯緭鍏ヤ竴涓汉鏁帮細");
+		int score=scanner.nextInt();
+		score=Math.max(0, Math.min(5, score));
+		System.out.println(score);
+
 	}
+
 }
